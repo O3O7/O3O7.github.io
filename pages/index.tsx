@@ -1,15 +1,16 @@
+import Footer from '@/components/base/Footer';
+import Header from '@/components/base/Header';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
     <div>
-      <Head>
-        <title>Index Page</title>
-      </Head>
+      <Header />
       <main>
         <h1>Hello Github Pages</h1>
       </main>
+      <Footer />
     </div>
   );
 };
