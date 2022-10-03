@@ -7,6 +7,7 @@ export default function FaceIcon() {
         className="rounded-full"
         layout="fill"
         objectFit="contain"
+        alt="顔アイコン"
         src="https://github.com/Sakamoto-Shun.png"
       />
     </div>
