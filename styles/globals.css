@@ -27,3 +27,57 @@ a {
     background: black;
   }
 } */
+/* 
+.box {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 5px #4973ff;
+  overflow: hidden;
+}
+.wave {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #4973ff;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.wave:before,
+.wave:after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 150%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #fff;
+}
+
+.wave:before {
+  background: #fff;
+  animation: rotation 5s linear infinite;
+  border-radius: 40%;
+}
+
+.wave:after {
+  background: #fff;
+  opacity: 0.5;
+  animation: rotation 5s linear infinite;
+  border-radius: 45%;
+}
+
+@keyframes rotation {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(180deg);
+  }
+} */
