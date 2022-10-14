@@ -3,7 +3,7 @@ type Props = {};
 const Calendar = (props: Props) => {
   const now = new Date();
   return (
-    <div className="w-20 flex-none rounded-t text-center shadow-lg">
+    <div className="w-14 md:w-20 pt-3 flex-none rounded-t text-center shadow-lg">
       <div className="bg-blue-500 text-sm text-white py-1 rounded-t">{now.getMonth() + 1}月</div>
       <div className="pt-1 border-l border-r border-white bg-white">
         <span className="text-2xl font-bold leading-tight">{now.getDate()}</span>
